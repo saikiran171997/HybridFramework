@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[11  10]]>
+    </line>
+    <line>
+      <![CDATA[login successadminflow  http://primusbank.qedgetech.com/adminflow.aspx]]>
+    </line>
+    <line>
+      <![CDATA[logout successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4061" started-at="2022-09-22T07:11:25Z" finished-at="2022-09-22T07:11:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4061" started-at="2022-09-22T07:11:25Z" finished-at="2022-09-22T07:11:29Z">
+      <class name="driverfactory.Driverscript">
+        <test-method status="PASS" signature="setup()[pri:0, instance:driverfactory.Driverscript@5b275dab]" name="setup" is-config="true" duration-ms="6084" started-at="2022-09-22T12:41:19Z" finished-at="2022-09-22T12:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="starttest()[pri:0, instance:driverfactory.Driverscript@5b275dab]" name="starttest" duration-ms="4053" started-at="2022-09-22T12:41:25Z" finished-at="2022-09-22T12:41:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[11  10]]>
+            </line>
+            <line>
+              <![CDATA[login successadminflow  http://primusbank.qedgetech.com/adminflow.aspx]]>
+            </line>
+            <line>
+              <![CDATA[logout successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- starttest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:driverfactory.Driverscript@5b275dab]" name="teardown" is-config="true" duration-ms="158" started-at="2022-09-22T12:41:29Z" finished-at="2022-09-22T12:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- driverfactory.Driverscript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
